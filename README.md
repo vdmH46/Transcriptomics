@@ -9,7 +9,7 @@ De oorzaak van RA is een combinatie van genetische aanleg en omgevingsfactoren, 
 
 Om RA beter te begrijpen, vroegtijdig te herkennen en ernstige schade aan gewrichten en botten te voorkomen, wordt gebruikgemaakt van transcriptomics. Deze techniek onderzoekt welke genen verhoogd of verlaagd tot expressie komen bij mensen met RA en welke metabole routes anders functioneren.
 # Methode
-In dit onderzoek werd RNA-sequencing data geanalyseerd van acht synoviumbiopten: vier van gezonde individuen en vier van personen met reumatoïde artritis (RA). RA-patiënten hadden een bevestigde diagnose van meer dan 12 maanden en testten positief op ACPA. De gezonde individuen waren ACPA-negatief. De data is afkomstig uit een eerder gepubliceerd onderzoek (Platzer et al., 2019).
+In dit onderzoek werd RNA-sequencing data geanalyseerd van acht synoviumbiopten: vier van gezonde individuen en vier van personen met reumatoïde artritis (RA). RA-patiënten hadden een bevestigde diagnose van meer dan 12 maanden en testten positief op ACPA. De gezonde individuen waren ACPA-negatief. De data is afkomstig uit een eerder gepubliceerd onderzoek [(Platzer et al., 2019)](https://github.com/vdmH46/Transcriptomics/blob/main/Dataset/Artikel%20Casus.pdf).
 
 De ruwe sequencing data werd verwerkt in RStudio (versie 4.4.1). Eerst werd met het *Rsubread*-package (versie 2.20.0) een referentie-index opgebouwd op basis van het humane referentiegenoom GRCh38 (Homo_sapiens.GRCh38.dna.toplevel_1.fa). De reads werden uitgelijnd met de align()-functie van *Rsubread*. De verkregen BAM-bestanden werden gesorteerdmet behulp van het *Rsamtools*-package (versie 2.22.0).
 
