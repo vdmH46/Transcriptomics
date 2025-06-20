@@ -7,9 +7,9 @@ Het toepassen van transcriptomics om genexpressiepatronen op te sporen die wijze
 * `Dataset/`- Artikel met dataset
 * `Resultaten/`- Figuren uit de R analyse
 * `Scripts/`- Script met de uitgevoerde stappen
-* `Flowchart/`-
+* `Flowchart/`- Stroomschema van methode
 * `README.md/`- Het document om de tekst hier te genereren
-* `Data_stewardship/`-
+* `Data_stewardship/`- Voor de competentie beheren
 # Inleiding
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij gewrichten ontstoken raken. Dit veroorzaakt schade aan kraakbeen en bot. Typische klachten zijn ochtendstijfheid, gewrichtspijn, vermoeidheid en gewichtsverlies.
 
