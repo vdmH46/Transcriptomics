@@ -27,7 +27,7 @@ Vervolgens werd een Gene Ontology (GO)-verrijkingsanalyse uitgevoerd met *goseq*
 
 [Flowchart](https://github.com/vdmH46/Transcriptomics/blob/main/Flowchart/Flowchart.png)
 # Resultaten
-Om inzicht te krijgen in welke genen significant verschillend tot expressie kwamen tussen de RA-groep en gezonde controles, werden 29.407 genen geanalyseerd. De resultaten zijn gevisualiseerd in een *volcano plot* [(Figuur 1)](https://github.com/vdmH46/Transcriptomics/blob/main/Resultaten/VolcanoplotCasus.png). Hierin staat de log₂ fold change (> 1) op de x-as, en de –log₁₀(p-waarde < 0,05) op de y-as.
+Om inzicht te krijgen in welke genen significant verschillend tot expressie kwamen tussen de RA-groep en gezonde controles, werden 29.407 genen geanalyseerd. De resultaten zijn gevisualiseerd in een *volcano plot* ![(Figuur 1)](https://github.com/vdmH46/Transcriptomics/blob/main/Resultaten/VolcanoplotCasus.png) <sub><sup>Figuur: Top 10 verrijkte GO-termen op basis van differentieel tot expressie komende genen bij RA. De stipgrootte geeft het aantal genen aan, kleur geeft de -log₁₀(p-waarde) weer.</sup></sub>. Hierin staat de log₂ fold change (> 1) op de x-as, en de –log₁₀(p-waarde < 0,05) op de y-as.
 
 Om beter te begrijpen welke biologische processen geassocieerd zijn met de differentieel tot expressie komende genen bij RA, werd een Gene Ontology (GO)-verrijkingsanalyse uitgevoerd met het *goseq*-package. Uit deze analyse kwamen meerdere verrijkte termen naar voren die sterk gerelateerd zijn aan het immuunsysteem [(Figuur 2)](https://github.com/vdmH46/Transcriptomics/blob/main/Resultaten/GO_Analyse.png). 
 
