@@ -24,6 +24,7 @@ De ruwe sequencing data werd verwerkt in RStudio (versie 4.4.1). Eerst werd met 
 De reads werden geteld met featureCounts() op basis van een GTF-annotatiebestand dat informatie bevat over de ligging van genen (Homo_sapiens.GRCh38.114.gtf). De countmatrix werd geanalyseerd met *DESeq2* (versie 1.46.0) om differentieel tot expressie komende genen tussen RA en controle te identificeren (p-waarde < 0,05; log2 fold change ≥ 1). De resultaten werden gevisualiseerd in een *volcano plot* met het *EnhancedVolcano*-package (1.24.0).
 
 Vervolgens werd een Gene Ontology (GO)-verrijkingsanalyse uitgevoerd met *goseq* (1.58.0). Significante termen werden gevisualiseerd met *ggplot2* (3.5.2). Tot slot werd KEGG-pathway analyse uitgevoerd met het *pathview*-package (1.46.0), waarbij onder andere pathway hsa04670 (“Leukocyte transendothelial migration”) werd gevisualiseerd.
+
 [Flowchart](https://github.com/vdmH46/Transcriptomics/blob/main/Flowchart/Flowchart.png)
 # Resultaten
 Om inzicht te krijgen in welke genen significant verschillend tot expressie kwamen tussen de RA-groep en gezonde controles, werden 29.407 genen geanalyseerd. De resultaten zijn gevisualiseerd in een *volcano plot* [(Figuur 1)](https://github.com/vdmH46/Transcriptomics/blob/main/Resultaten/VolcanoplotCasus.png). Hierin staat de log₂ fold change (> 1) op de x-as, en de –log₁₀(p-waarde < 0,05) op de y-as.
