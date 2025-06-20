@@ -1,7 +1,7 @@
 # Transcriptomics
 Het toepassen van transcriptomics om genexpressiepatronen op te sporen die wijzen op vroege stadia van reumatoïde artritis.
 # Inhoud
-
+* 'Bronnen/'
 # Inleiding
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte waarbij gewrichten ontstoken raken. Dit veroorzaakt schade aan kraakbeen en bot. Typische klachten zijn ochtendstijfheid, gewrichtspijn, vermoeidheid en gewichtsverlies.
 
