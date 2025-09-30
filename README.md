@@ -1,4 +1,4 @@
-# Transcriptomics
+# Transcriptomics als methode om vroege genexpressiepatronen bij reumatoïde artritis te identificeren
 Het toepassen van transcriptomics om genexpressiepatronen op te sporen die wijzen op vroege stadia van reumatoïde artritis.
 # Inhoud
 * `Bronnen/`- Gebruikte bronnen
